@@ -30,6 +30,7 @@ public class MyReportService {
     }
 
     public void generateReport(int i) throws IOException {
+
         ReportBuilder reportBuilder = new ReportBuilder();
         ReportTemplateBuilder reportTemplateBuilder = new ReportTemplateBuilder()
                 .documentPath("D:\\playground\\yargtest\\src\\main\\resources\\templates\\customer.docx")
